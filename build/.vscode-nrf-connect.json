@@ -1,0 +1,19 @@
+{
+  "toolchainPath": "/opt/nordic/ncs/toolchains/f8037e9b83",
+  "sdkPath": "/Users/zhangjiaqi/ncs/v2.7.0",
+  "board": "nrf7002dk/nrf5340/cpuapp",
+  "boardDir": "/Users/zhangjiaqi/ncs/v2.7.0/nrf/boards/nordic/nrf7002dk",
+  "boardDirs": [
+    "/Users/zhangjiaqi/ncs/v2.7.0/nrf/boards/nordic/nrf7002dk"
+  ],
+  "optimizations": "none",
+  "cmakeArgs": [],
+  "confFiles": [
+    "prj.conf"
+  ],
+  "buildDirectory": "build",
+  "kconfigFragments": [],
+  "snippets": [],
+  "dtcOverlays": [],
+  "extraDtcOverlays": []
+}

@@ -1,0 +1,2 @@
+osource "/Users/zhangjiaqi/ncs/v2.7.0/boards/shields/*/Kconfig.defconfig"
+osource "/Users/zhangjiaqi/ncs/v2.7.0/nrf/boards/shields/*/Kconfig.defconfig"
