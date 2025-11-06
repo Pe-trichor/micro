@@ -209,38 +209,6 @@
     ],
     [
         [
-            "int mbox_send",
-            "const struct device *dev, mbox_channel_id_t channel_id,\n\t\t\tconst struct mbox_msg *msg"
-        ],
-        "mbox.h",
-        true
-    ],
-    [
-        [
-            "int mbox_mtu_get",
-            "const struct device *dev"
-        ],
-        "mbox.h",
-        true
-    ],
-    [
-        [
-            "int mbox_set_enabled",
-            "const struct device *dev,\n\t\t\t       mbox_channel_id_t channel_id, bool enabled"
-        ],
-        "mbox.h",
-        true
-    ],
-    [
-        [
-            "uint32_t mbox_max_channels_get",
-            "const struct device *dev"
-        ],
-        "mbox.h",
-        true
-    ],
-    [
-        [
             "int uart_err_check",
             "const struct device *dev"
         ],
@@ -2693,6 +2661,38 @@
             "const struct device *dev, uint32_t led"
         ],
         "led.h",
+        false
+    ],
+    [
+        [
+            "int mbox_send",
+            "const struct device *dev, mbox_channel_id_t channel_id,\n\t\t\tconst struct mbox_msg *msg"
+        ],
+        "mbox.h",
+        false
+    ],
+    [
+        [
+            "int mbox_mtu_get",
+            "const struct device *dev"
+        ],
+        "mbox.h",
+        false
+    ],
+    [
+        [
+            "int mbox_set_enabled",
+            "const struct device *dev,\n\t\t\t       mbox_channel_id_t channel_id, bool enabled"
+        ],
+        "mbox.h",
+        false
+    ],
+    [
+        [
+            "uint32_t mbox_max_channels_get",
+            "const struct device *dev"
+        ],
+        "mbox.h",
         false
     ],
     [

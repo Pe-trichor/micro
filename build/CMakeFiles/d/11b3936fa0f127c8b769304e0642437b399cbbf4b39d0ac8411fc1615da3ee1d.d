@@ -61,13 +61,13 @@ zephyr/linker_zephyr_pre0.cmd: \
   /Users/zhangjiaqi/ncs/v2.7.0/zephyr/include/zephyr/linker/common-rom/common-rom-misc.ld \
   /Users/zhangjiaqi/ncs/v2.7.0/zephyr/include/zephyr/linker/thread-local-storage.ld \
   zephyr/include/generated/snippets-rodata.ld \
+  /Users/zhangjiaqi/ncs/v2.7.0/zephyr/arch/arm/core/swi_tables.ld \
   /Users/zhangjiaqi/ncs/v2.7.0/zephyr/include/zephyr/linker/kobject-rom.ld \
   /Users/zhangjiaqi/ncs/v2.7.0/zephyr/include/zephyr/linker/cplusplus-rom.ld \
   zephyr/include/generated/snippets-ram-sections.ld \
   /Users/zhangjiaqi/ncs/v2.7.0/zephyr/arch/common/ramfunc.ld \
   zephyr/include/generated/snippets-ramfunc-section.ld \
   zephyr/include/generated/snippets-rwdata.ld \
-  /Users/zhangjiaqi/ncs/v2.7.0/zephyr/arch/arm/core/swi_tables.ld \
   /Users/zhangjiaqi/ncs/v2.7.0/zephyr/include/zephyr/linker/common-ram.ld \
   /Users/zhangjiaqi/ncs/v2.7.0/zephyr/include/zephyr/linker/kobject-data.ld \
   /Users/zhangjiaqi/ncs/v2.7.0/zephyr/include/zephyr/linker/cplusplus-ram.ld \

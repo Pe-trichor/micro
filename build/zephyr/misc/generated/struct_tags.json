@@ -10,7 +10,6 @@
     ],
     "__subsystem": [
         "gpio_driver_api",
-        "mbox_driver_api",
         "uart_driver_api",
         "shared_irq_driver_api",
         "crypto_driver_api",
@@ -49,6 +48,7 @@
         "led_driver_api",
         "led_strip_driver_api",
         "lora_driver_api",
+        "mbox_driver_api",
         "mdio_driver_api",
         "mipi_dbi_driver_api",
         "mipi_dsi_driver_api",

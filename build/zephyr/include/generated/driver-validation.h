@@ -6,8 +6,6 @@
                 
 #define K_SYSCALL_DRIVER_GPIO(ptr, op) K_SYSCALL_DRIVER_GEN(ptr, op, gpio, GPIO)
 
-#define K_SYSCALL_DRIVER_MBOX(ptr, op) K_SYSCALL_DRIVER_GEN(ptr, op, mbox, MBOX)
-
 #define K_SYSCALL_DRIVER_UART(ptr, op) K_SYSCALL_DRIVER_GEN(ptr, op, uart, UART)
 
 #define K_SYSCALL_DRIVER_SHARED_IRQ(ptr, op) K_SYSCALL_DRIVER_GEN(ptr, op, shared_irq, SHARED_IRQ)
@@ -83,6 +81,8 @@
 #define K_SYSCALL_DRIVER_LED_STRIP(ptr, op) K_SYSCALL_DRIVER_GEN(ptr, op, led_strip, LED_STRIP)
 
 #define K_SYSCALL_DRIVER_LORA(ptr, op) K_SYSCALL_DRIVER_GEN(ptr, op, lora, LORA)
+
+#define K_SYSCALL_DRIVER_MBOX(ptr, op) K_SYSCALL_DRIVER_GEN(ptr, op, mbox, MBOX)
 
 #define K_SYSCALL_DRIVER_MDIO(ptr, op) K_SYSCALL_DRIVER_GEN(ptr, op, mdio, MDIO)
 

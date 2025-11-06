@@ -92,6 +92,11 @@ KEEP(*(.gnu.linkonce.irq_vector_table*))
   __deferred_init_list_end = .;
  } > FLASH
  device_area : SUBALIGN(4) { _device_list_start = .; KEEP(*(SORT(._device.static.*_?_*))); KEEP(*(SORT(._device.static.*_??_*))); _device_list_end = .; } > FLASH
+ sw_isr_table :
+ {
+  . = ALIGN(4);
+  *(.gnu.linkonce.sw_isr_table*)
+ } > FLASH
  initlevel_error :
  {
   KEEP(*(SORT(.z_init_[_A-Z0-9]*)))
@@ -204,11 +209,6 @@ __ramfunc_load_start = LOADADDR(.ramfunc);
     __data_size = __data_end - __data_start;
     __data_load_start = LOADADDR(datas);
     __data_region_load_start = LOADADDR(datas);
- sw_isr_table : ALIGN_WITH_INPUT
- {
-  . = ALIGN(4);
-  *(.gnu.linkonce.sw_isr_table*)
- } > RAM AT > FLASH
         device_states : ALIGN_WITH_INPUT
         {
                 __device_states_start = .;

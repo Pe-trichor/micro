@@ -41,7 +41,6 @@ case K_OBJ_SENSOR_DECODER_API: ret = "sensor_decoder_api"; break;
 #endif
 /* Driver subsystems */
 case K_OBJ_DRIVER_GPIO: ret = "gpio driver"; break;
-case K_OBJ_DRIVER_MBOX: ret = "mbox driver"; break;
 case K_OBJ_DRIVER_UART: ret = "uart driver"; break;
 case K_OBJ_DRIVER_SHARED_IRQ: ret = "shared_irq driver"; break;
 case K_OBJ_DRIVER_CRYPTO: ret = "crypto driver"; break;
@@ -80,6 +79,7 @@ case K_OBJ_DRIVER_KSCAN: ret = "kscan driver"; break;
 case K_OBJ_DRIVER_LED: ret = "led driver"; break;
 case K_OBJ_DRIVER_LED_STRIP: ret = "led_strip driver"; break;
 case K_OBJ_DRIVER_LORA: ret = "lora driver"; break;
+case K_OBJ_DRIVER_MBOX: ret = "mbox driver"; break;
 case K_OBJ_DRIVER_MDIO: ret = "mdio driver"; break;
 case K_OBJ_DRIVER_MIPI_DBI: ret = "mipi_dbi driver"; break;
 case K_OBJ_DRIVER_MIPI_DSI: ret = "mipi_dsi driver"; break;

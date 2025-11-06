@@ -165,15 +165,9 @@
 /Users/zhangjiaqi/ncs/v2.7.0/applications/micro41350/build/zephyr/drivers/clock_control/CMakeFiles/rebuild_cache.dir
 /Users/zhangjiaqi/ncs/v2.7.0/applications/micro41350/build/zephyr/drivers/clock_control/CMakeFiles/edit_cache.dir
 /Users/zhangjiaqi/ncs/v2.7.0/applications/micro41350/build/zephyr/drivers/clock_control/CMakeFiles/drivers__clock_control.dir
-/Users/zhangjiaqi/ncs/v2.7.0/applications/micro41350/build/zephyr/drivers/console/CMakeFiles/rebuild_cache.dir
-/Users/zhangjiaqi/ncs/v2.7.0/applications/micro41350/build/zephyr/drivers/console/CMakeFiles/edit_cache.dir
-/Users/zhangjiaqi/ncs/v2.7.0/applications/micro41350/build/zephyr/drivers/console/CMakeFiles/drivers__console.dir
 /Users/zhangjiaqi/ncs/v2.7.0/applications/micro41350/build/zephyr/drivers/gpio/CMakeFiles/rebuild_cache.dir
 /Users/zhangjiaqi/ncs/v2.7.0/applications/micro41350/build/zephyr/drivers/gpio/CMakeFiles/edit_cache.dir
 /Users/zhangjiaqi/ncs/v2.7.0/applications/micro41350/build/zephyr/drivers/gpio/CMakeFiles/drivers__gpio.dir
-/Users/zhangjiaqi/ncs/v2.7.0/applications/micro41350/build/zephyr/drivers/mbox/CMakeFiles/rebuild_cache.dir
-/Users/zhangjiaqi/ncs/v2.7.0/applications/micro41350/build/zephyr/drivers/mbox/CMakeFiles/edit_cache.dir
-/Users/zhangjiaqi/ncs/v2.7.0/applications/micro41350/build/zephyr/drivers/mbox/CMakeFiles/drivers__mbox.dir
 /Users/zhangjiaqi/ncs/v2.7.0/applications/micro41350/build/zephyr/drivers/pinctrl/CMakeFiles/rebuild_cache.dir
 /Users/zhangjiaqi/ncs/v2.7.0/applications/micro41350/build/zephyr/drivers/pinctrl/CMakeFiles/edit_cache.dir
 /Users/zhangjiaqi/ncs/v2.7.0/applications/micro41350/build/zephyr/drivers/pinctrl/CMakeFiles/drivers__pinctrl.dir
@@ -321,6 +315,7 @@
 /Users/zhangjiaqi/ncs/v2.7.0/applications/micro41350/build/modules/picolibc/CMakeFiles/edit_cache.dir
 /Users/zhangjiaqi/ncs/v2.7.0/applications/micro41350/build/modules/segger/CMakeFiles/rebuild_cache.dir
 /Users/zhangjiaqi/ncs/v2.7.0/applications/micro41350/build/modules/segger/CMakeFiles/edit_cache.dir
+/Users/zhangjiaqi/ncs/v2.7.0/applications/micro41350/build/modules/segger/CMakeFiles/modules__segger.dir
 /Users/zhangjiaqi/ncs/v2.7.0/applications/micro41350/build/modules/tinycrypt/CMakeFiles/rebuild_cache.dir
 /Users/zhangjiaqi/ncs/v2.7.0/applications/micro41350/build/modules/tinycrypt/CMakeFiles/edit_cache.dir
 /Users/zhangjiaqi/ncs/v2.7.0/applications/micro41350/build/modules/uoscore-uedhoc/CMakeFiles/rebuild_cache.dir
